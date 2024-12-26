@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300);
+
+body{
+  background:#ff6b6b;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-weight:100;
+}
+h1{
+  font-size:5.5em;
+  text-align:center;
+  font-family:"lato";
+  font-weight:100;
+}
+img{
+  width:200px;
+  margin:auto;
+  transition: all 0.2s;
+  display:block;
+}
+#snupi{
+  width:250px;
+  margin:auto;
+}
+#snupi:hover{
+  opacity:0.15;
+  cursor:pointer;
+  transition: all 1s;
+}
+#hint{
+  text-align:center;
+  padding:25px;
+  margin:auto;
+}
+#container{
+  margin-top:auto;
+  margin-bottom:auto;
+}
+#hideaway{
+  display:none;
+  width:600px;
+  margin:auto;
+  font-size:1.25em;
+  text-align:left;
+  transition: all 1s;
+}
+a{
+  color:white;
+}
+a:link {
+  text-decoration:none;
+  color:whie;
+}
+#hide{
+  text-align:center;
+  boder-style:solid;
+  border-color:white;
+  border-radius:5px;
+  border-width:2px;
+}
+#sign{
+  float:left;
+  width:200px;
+  padding:20px;
+  display:inline-block;
+}
+#gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+#gallery img {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+  filter: blur(20px) brightness(10%);
+}
+#gallery img:hover {
+  transform: scale(1.1);
+  filter: blur(0);
+}
